@@ -1,0 +1,33 @@
+{
+    "Table": {
+        "TableName": "swiftmile-prod-clusters",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "title",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "description",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "coordinates",
+                "AttributeType": "S"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        }
+    }
+}

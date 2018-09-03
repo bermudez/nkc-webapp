@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  max-width: 736px;
+}
+.row {
+  align-items: 'center';
+  justify-content: 'center';
+}

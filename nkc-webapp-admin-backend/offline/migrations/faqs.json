@@ -1,0 +1,41 @@
+{
+    "Table": {
+        "TableName": "swiftmile-prod-faqs",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "question",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "answer",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "category",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "added_on",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "added_by",
+                "AttributeType": "S"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        }
+    }
+}

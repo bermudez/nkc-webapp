@@ -1,0 +1,29 @@
+{
+    "swiftmile-prod-Venue": [
+      {
+          "PutRequest": {
+              "Item": {
+                  "venueID": {"S": "101"},
+                  "poiCluster": {"N": "1"},
+                  "badgeRules": {"BOOL": true},
+                  "showInMap": {"S": "Yes"},
+                  "showInVenueList": {"S": "Yes"},
+                  "latlng":{"M":
+                      {
+                      "latitude": {"N":"39.14008"},
+                      "longitude": {"N":"-94.57692"}
+                      }
+                    },
+                  "title": {"S": "Tapcade NKC"},
+                  "description": {"S":"1735 Swift St, North Kansas City, MO 64116"},
+                  "notes": {"S": "  "},
+                  "image": {"S":  "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/tapcade.png"},
+                  "markerImage": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-tapcade.png"}
+              }
+            }
+        }
+
+
+
+    ]
+}

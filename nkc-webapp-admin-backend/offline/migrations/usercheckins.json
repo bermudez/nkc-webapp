@@ -1,0 +1,53 @@
+{
+    "Table": {
+        "TableName": "swiftmile-prod-usercheckins",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "name",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "user",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "venue",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "added_on",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "clicked_at",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "lat_lng",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "reviewed",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "reviewed_on",
+                "AttributeType": "S"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        }
+    }
+}

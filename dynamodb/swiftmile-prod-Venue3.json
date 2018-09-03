@@ -1,0 +1,205 @@
+{
+    "swiftmile-prod-Venue": [
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "1001"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.141191"},
+                    "longitude": {"N": "-94.579356"}
+                  }
+                },
+                "title": {"S": "Allen Building"},
+                "description": {"S":"101 Armour Rd, North City, MO 64116 "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/AllenBuilding.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-AllenBuilding.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "1002"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.142253"},
+                    "longitude": {"N": "-94.576824"}
+                  }
+                },
+                "title": {"S": "Le Monde Bakery"},
+                "description": {"S":"308 Armour Rd, North Kansas City, MO 64116 "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/LeMonde.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-LeMonde.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "1003"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.141845"},
+                    "longitude": {"N": "-94.576752"}
+                  }
+                },
+                "title": {"S": "Aunt Mary's Cookies"},
+                "description": {"S":"309 Armour Rd, North Kansas City, MO 64116 "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/AuntMarysCookies.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-AuntMarysCookies.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "1004"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.136646"},
+                    "longitude": {"N": "-94.572383"}
+                  }
+                },
+                "title": {"S": "Brave Enough Crossfit"},
+                "description": {"S":"1527 Howell St, North Kansas City, MO 64116 "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BraveEnough.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-BraveEnough.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "1005"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.135822"},
+                    "longitude": {"N": "-94.573563"}
+                  }
+                },
+                "title": {"S": "Callsign Brewery (Coming Soon)"},
+                "description": {"S":"1447 Gentry Street, North Kansas City, MO 64116 "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/callsign.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-callsign.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "1006"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.140446"},
+                    "longitude": {"N": "-94.578849"}
+                  }
+                },
+                "title": {"S": "Neon Wild Dance Club (Open Late Night)"},
+                "description": {"S":"1802 Clay Street, North Kansas City, MO 64116 "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/NeonWild.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-NeonWild.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S":  "1007"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng": {"M": {
+                    "latitude": {"N":"39.13546"},
+                    "longitude": {"N":"-94.57719"}
+                  }
+                },
+                "title": {"S" : "The Brewkery"},
+                "description": {"S" : "1443 Swift St, North Kansas City, MO 64116"},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/brewkery.png"},
+                "markerImage": {"S" : "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-brewkery.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S":  "1008"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng": {"M": {
+                    "latitude": {"N":"39.14037"},
+                    "longitude": {"N":"-94.57756"}
+                  }
+                },
+                "title": {"S" : "River Aces"},
+                "description": {"S" : "1800 Swift St, North Kansas City, MO 64116"},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/RiverAces.png"},
+                "markerImage": {"S" : "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-RiverAces.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "1009"},
+                "poiCluster": {"N": "100"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.14259"},
+                    "longitude": {"N": "-94.57536"}
+                  }
+                },
+                "title": {"S": "Shaka Noodle Shack (Coming Soon)"},
+                "description": {"S":"414 Armour Rd, Kansas City, MO 64116"},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Shaka.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-Shaka.png"}
+            }
+          }
+      }
+
+
+
+    ]
+}

@@ -1,0 +1,43 @@
+functions:
+  #Authentication
+  auth:
+    handler: src/auth0/authHandler.auth
+    
+  ##Private Functions
+  
+  #User
+  admin_user_list:
+    handler: src/admin/user_list.user_list
+    events:
+      - http:
+          path: admin/users
+          method: get
+          cors: true
+          integration: lambda
+  #User Badges
+  admin_user_badge_list:
+    handler: src/admin/user_badges_list.user_badges_list
+    events:
+      - http:
+          path: admin/user_badges
+          method: get
+          cors: true
+          integration: lambda
+  #UserCheckIns
+  admin_snap_list:
+    handler: src/admin/user_snaps_list.user_snaps_list
+    events:
+      - http:
+          path: admin/snaps
+          method: get
+          cors: true
+          integration: lambda
+  #Create Badge
+  admin_user_badge_create:
+    handler: src/admin/add_badge.add_badge
+    events:
+      - http:
+          path: admin/add_badge
+          method: post
+          cors: true
+          integration: lambda

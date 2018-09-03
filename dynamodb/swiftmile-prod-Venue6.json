@@ -1,0 +1,96 @@
+{
+    "swiftmile-prod-Venue": [
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "5001"},
+                "poiCluster": {"N": "500"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.135622"},
+                    "longitude": {"N": "-94.577314"}
+                  }
+                },
+                "title": {"S": "The Swift Mile Vendor Market"},
+                "description": {"S": " --- "},
+                "notes": {"S": " --- "},
+                "notes2": {"S": " --- "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/SwiftMileArt.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-SwiftMileArt.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "5002"},
+                "poiCluster": {"N": "500"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1319599"},
+                    "longitude": {"N": "-94.577457"}
+                  }
+                },
+                "title": {"S": "Public Art: Matt Eeks"},
+                "description": {"S": "1247 Swift St, North Kansas City, MO 64116 "},
+                "notes": {"S": " --- "},
+                "notes2": {"S": " --- "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/eeksbird.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-eeksbird.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "5003"},
+                "poiCluster": {"N": "500"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1333387"},
+                    "longitude": {"N": "-94.5774373"}
+                  }
+                },
+                "title": {"S": "Public Art: Ricky Allman"},
+                "description": {"S": "1329 Swift St, North Kansas City, MO 64116 "},
+                "notes": {"S": " --- "},
+                "notes2": {"S": " --- "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/AllmanPainting.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-AllmanPainting.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "5004"},
+                "poiCluster": {"N": "500"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1341574"},
+                    "longitude": {"N": "-94.5772311"}
+                  }
+                },
+                "title": {"S": "Public Art: Jeremy Bena"},
+                "description": {"S": " --- "},
+                "notes": {"S": " --- "},
+                "notes2": {"S": " --- "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Bena-01.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-Bena-01.png"}
+            }
+          }
+      }
+
+
+
+
+    ]
+}

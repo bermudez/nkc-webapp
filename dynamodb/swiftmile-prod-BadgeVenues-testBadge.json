@@ -1,0 +1,32 @@
+{
+    "swiftmile-prod-BadgeVenues": [
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "test-01-a"},
+                "badgeID": {"N": "1000"},
+                "venueID": {"S": "306"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "test-01-b"},
+                "badgeID": {"N": "1000"},
+                "venueID": {"S": "405"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "test-01-c"},
+                "badgeID": {"N": "1000"},
+                "venueID": {"S": "104"}
+            }
+          }
+      }
+
+    ]
+}

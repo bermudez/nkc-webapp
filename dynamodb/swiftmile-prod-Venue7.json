@@ -1,0 +1,74 @@
+{
+    "swiftmile-prod-Venue": [
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "6001"},
+                "poiCluster": {"N": "600"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1337126"},
+                    "longitude": {"N": "-94.5774459"}
+                  }
+                },
+                "title": {"S": "Stage 1"},
+                "description": {"S": " --- "},
+                "notes": {"S": " --- "},
+                "notes2": {"S": " --- "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Stage1.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/Stage1.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "6002"},
+                "poiCluster": {"N": "600"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1355049"},
+                    "longitude": {"N": "-94.5774201"}
+                  }
+                },
+                "title": {"S": "Stage 2"},
+                "description": {"S": " --- "},
+                "notes": {"S": " --- "},
+                "notes2": {"S": " --- "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Stage2.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/Stage2.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "6003"},
+                "poiCluster": {"N": "600"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.140088"},
+                    "longitude": {"N": "-94.577504"}
+                  }
+                },
+                "title": {"S": "Stage 3"},
+                "description": {"S": " --- "},
+                "notes": {"S": " --- "},
+                "notes2": {"S": " --- "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Stage3.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/Stage3.png"}
+            }
+          }
+      }
+
+
+
+
+    ]
+}

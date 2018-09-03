@@ -1,0 +1,249 @@
+{
+    "swiftmile-prod-Venue": [
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "2001"},
+                "poiCluster": {"N": "200"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1271552"},
+                    "longitude": {"N": "-94.5775943"}
+                  }
+                },
+                "title": {"S": "Bus Stop #1"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BusStop.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/BusStop.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "2002"},
+                "poiCluster": {"N": "200"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1321736"},
+                    "longitude": {"N": "-94.577458"}
+                  }
+                },
+                "title": {"S": "Bus Stop #2"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BusStop.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/BusStop.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "2003"},
+                "poiCluster": {"N": "200"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1380363"},
+                    "longitude": {"N": "-94.5773952"}
+                  }
+                },
+                "title": {"S": "Bus Stop #3"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BusStop.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/BusStop.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "2004"},
+                "poiCluster": {"N": "200"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.140229"},
+                    "longitude": {"N": "-94.577306"}
+                  }
+                },
+                "title": {"S": "Bus Stop #4"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BusStop.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/BusStop.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "2005"},
+                "poiCluster": {"N": "200"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1418345"},
+                    "longitude": {"N": "-94.5773358"}
+                  }
+                },
+                "title": {"S": "Bus Stop #5"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BusStop.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/BusStop.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "2006"},
+                "poiCluster": {"N": "200"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1428074"},
+                    "longitude": {"N": "-94.5727975"}
+                  }
+                },
+                "title": {"S": "Bus Stop #6"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BusStop.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/BusStop.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "2007"},
+                "poiCluster": {"N": "200"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1403056"},
+                    "longitude": {"N": "-94.5726714"}
+                  }
+                },
+                "title": {"S": "Bus Stop #7"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BusStop.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/BusStop.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "2008"},
+                "poiCluster": {"N": "200"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1361852"},
+                    "longitude": {"N": "-94.5726977"}
+                  }
+                },
+                "title": {"S": "Bus Stop #8"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BusStop.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/BusStop.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "3001"},
+                "poiCluster": {"N": "300"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1497462"},
+                    "longitude": {"N": "-94.5772092"}
+                  }
+                },
+                "title": {"S": "Bike Share Station #1"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BCycle.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-BCycle.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "3002"},
+                "poiCluster": {"N": "300"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.140115"},
+                    "longitude": {"N": "-94.577298"}
+                  }
+                },
+                "title": {"S": "Bike Share Station #2"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BCycle.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-BCycle.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "3003"},
+                "poiCluster": {"N": "300"},
+                "badgeRules": {"BOOL": false},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "No"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.1429297"},
+                    "longitude": {"N": "-94.5714439"}
+                  }
+                },
+                "title": {"S": "Bike Share Station #3"},
+                "description": {"S":"  "},
+                "notes": {"S": "  "},
+                "notes2": {"S": " "},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BCycle.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-BCycle.png"}
+            }
+          }
+      }
+
+
+
+    ]
+}

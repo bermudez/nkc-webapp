@@ -1,0 +1,230 @@
+{
+    "swiftmile-prod-BadgeVenues": [
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "26"},
+                "badgeID": {"N": "11"},
+                "venueID": {"S": "406"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "27"},
+                "badgeID": {"N": "5"},
+                "venueID": {"S": "103"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "28"},
+                "badgeID": {"N": "5"},
+                "venueID": {"S": "401"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "29"},
+                "badgeID": {"N": "5"},
+                "venueID": {"S": "301"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "30"},
+                "badgeID": {"N": "5"},
+                "venueID": {"S": "302"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "31"},
+                "badgeID": {"N": "5"},
+                "venueID": {"S": "201"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "32"},
+                "badgeID": {"N": "13"},
+                "venueID": {"S": "106"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "33"},
+                "badgeID": {"N": "13"},
+                "venueID": {"S": "206"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "34"},
+                "badgeID": {"N": "13"},
+                "venueID": {"S": "406"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "35"},
+                "badgeID": {"N": "13"},
+                "venueID": {"S": "4004"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "36"},
+                "badgeID": {"N": "3"},
+                "venueID": {"S": "306"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "37"},
+                "badgeID": {"N": "3"},
+                "venueID": {"S": "405"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "38"},
+                "badgeID": {"N": "3"},
+                "venueID": {"S": "104"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "39"},
+                "badgeID": {"N": "10"},
+                "venueID": {"S": "107"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "40"},
+                "badgeID": {"N": "10"},
+                "venueID": {"S": "402"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "41"},
+                "badgeID": {"N": "10"},
+                "venueID": {"S": "403"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "42"},
+                "badgeID": {"N": "10"},
+                "venueID": {"S": "205"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "43"},
+                "badgeID": {"N": "6"},
+                "venueID": {"S": "203"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "44"},
+                "badgeID": {"N": "6"},
+                "venueID": {"S": "204"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "45"},
+                "badgeID": {"N": "6"},
+                "venueID": {"S": "102"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "46"},
+                "badgeID": {"N": "6"},
+                "venueID": {"S": "303"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "47"},
+                "badgeID": {"N": "6"},
+                "venueID": {"S": "4003"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "48"},
+                "badgeID": {"N": "9"},
+                "venueID": {"S": "305"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "49"},
+                "badgeID": {"N": "9"},
+                "venueID": {"S": "4001"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "50"},
+                "badgeID": {"N": "9"},
+                "venueID": {"S": "404"}
+            }
+          }
+      }
+
+    ]
+}

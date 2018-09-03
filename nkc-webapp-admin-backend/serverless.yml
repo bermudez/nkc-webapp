@@ -1,0 +1,85 @@
+service: nkcgoadmin
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+plugins:
+  - serverless-dynamodb-local
+  - serverless-offline
+  - serverless-plugin-multiple-responses
+
+custom:
+  dynamodb:
+    start:
+      port: 8000
+      inMemory: true
+      migrate: true
+    migration:
+      dir: offline/migrations
+
+provider:
+  name: aws
+  profile: ${file(./config/aws_params.yml):profile}
+  region: ${file(./config/aws_params.yml):region}
+  stage: ${file(./config/aws_params.yml):stage}
+  tags: 
+    env: ${file(./config/aws_params.yml):stage}
+  memorySize: 1536
+  stackTags: 
+    projectname: nkcgoadmin
+  deploymentBucket: us.fiduciam.nkcgoadmin.api.deploys
+  versionFunctions: true
+  runtime: nodejs6.10
+  apiKeys: false
+  environment:
+    DYNAMODB_USER_TABLE: swiftmile-prod-User
+    DYNAMODB_SNAP_TABLE: swiftmile-prod-Snap
+    DYNAMODB_BADGE_TABLE: swiftmile-prod-Badges
+    DYNAMODB_USER_BADGES_TABLE: swiftmile-prod-UserBadges
+
+    AUTH0_CLIENT: ${file(./config/aws_params.yml):AUTH0_CLIENT_ID}
+    AUTH0_SECRET: ${file(./config/aws_params.yml):AUTH0_CLIENT_SECRET}
+    AUTH0_DOMAIN: ${file(./config/aws_params.yml):AUTH0_DOMAIN}
+
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_USER_BADGES_TABLE}"
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_USER_TABLE}"
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_SNAP_TABLE}"
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_BADGE_TABLE}"
+  stackPolicy: 
+    - Effect: Allow
+      Principal: "*"
+      Action: "Update:*"
+      Resource: "*"
+    - Effect: Deny
+      Principal: "*"
+      Action:
+        - Update:Replace
+        - Update:Delete
+      Condition:
+        StringEquals:
+          ResourceType:
+            - AWS::EC2::Instance
+
+functions: ${file(./config/functions.yml):functions}

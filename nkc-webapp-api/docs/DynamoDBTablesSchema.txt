@@ -1,0 +1,124 @@
+- Clients(Installations)
+    id: hash
+    os: string
+    os_version: string
+    app_installed_on: datetime
+
+- Users
+    id: hash
+    username: string - indexing
+    email: string
+    password: string
+    access_token(if cached): string
+    user_roles: 
+    created_on: datetime
+    last_logged_in_on: datetime
+    
+- Roles
+    id: hash
+    name: string
+
+Clusters
+    id: hash,
+    title: string
+    description: string
+    image: string
+    coordinates: document
+
+Venues
+    id: hash
+    lat_lng:{
+        latitude: 39.14008,
+        longitude: -94.57692
+      },
+    title: string
+    description: string
+    image: string
+    marker_image: string
+    cluster: string - index
+
+User Photos(Check Ins - Snaps)
+    id: hash
+    name: string
+    user: 
+    venue: 
+    position: (lat long object)
+    added_on: datetime
+    clicked_at: datetime
+    reviewed: Boolean
+    reviewed_on: datetime(review date)
+
+FAQ
+    id: hash
+    Question: string
+    Answer: string
+    category: 
+    added_on
+    added_by: (User)
+
+Badges
+    id: hash
+    title: string
+    image: string 
+    added_on: datetime
+    added_by: (User)
+
+User Badges: 
+    id: hash
+    user: (User)
+    badge: (Badge)
+    achieved_on: datetime
+    reviewed_on: datetime(review date)
+    awarded_on: datetime(reviewed and awarded)
+
+Schedule*: 
+    id: hash
+    start_date: datetime
+    end_date: datetime
+    event: string
+
+Notifications(Push Notifications)
+    id: hash
+    
+
+Entities
+User - PUT,POST,GET
+Venue - PUT,POST,GET,DELETE
+Cluster - PUT,POST,GET,DELETE
+FAQ - PUT,POST,GET
+Notification - PUT,POST,GET,DELETE
+Badge - PUT,POST,GET
+Snaps - PUT,POST,GET
+Device - PUT,POST,GET
+Schedule - PUT,POST,GET,DELETE
+User Badge - PUT,GET,DELETE
+Roles - GET
+
+    BadgeVenues
+    - id
+    - venue_id
+    - badge_id
+
+    UserCheckInStats
+    - id
+    - user_id
+    - badge_id
+    - datetime
+
+    UserBadges
+    - id
+    - user_id
+    - badge_id
+    - awarded_on
+
+    Badges
+    - id
+    - image_url
+
+    Snaps
+    - id
+    - image_url
+    - reviewed
+    - datetime
+    - reviewed_on
+

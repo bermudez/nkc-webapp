@@ -1,0 +1,41 @@
+{
+    "Table": {
+        "TableName": "swiftmile-prod-userbadges",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "user",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "badge",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "achieved_on",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "reviewed_on",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "awarded_on",
+                "AttributeType": "S"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        }
+    }
+}

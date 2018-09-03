@@ -1,0 +1,49 @@
+{
+    "Table": {
+        "TableName": "swiftmile-prod-venues",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "title",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "description",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "image",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "marker_image",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "cluster",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "lat_lng",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "added_by",
+                "AttributeType": "S"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        }
+    }
+}

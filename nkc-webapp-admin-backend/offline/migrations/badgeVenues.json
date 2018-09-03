@@ -1,0 +1,148 @@
+[{
+  "badge_id": {
+    "S": "12"
+  },
+  "badge_weightage": {
+    "N": "1"
+  },
+  "id": {
+    "S": "11"
+  },
+  "venue_id": {
+    "S": "101"
+  }
+},
+{
+  "badge_id": {
+    "S": "12"
+  },
+  "badge_weightage": {
+    "N": "1"
+  },
+  "id": {
+    "S": "12"
+  },
+  "venue_id": {
+    "S": "102"
+  }
+},
+{
+  "badge_id": {
+    "S": "12"
+  },
+  "badge_weightage": {
+    "N": "1"
+  },
+  "id": {
+    "S": "13"
+  },
+  "venue_id": {
+    "S": "103"
+  }
+},
+{
+  "badge_id": {
+    "S": "12"
+  },
+  "badge_weightage": {
+    "N": "1"
+  },
+  "id": {
+    "S": "14"
+  },
+  "venue_id": {
+    "S": "104"
+  }
+},
+{
+  "badge_id": {
+    "S": "12"
+  },
+  "badge_weightage": {
+    "N": "1"
+  },
+  "id": {
+    "S": "15"
+  },
+  "venue_id": {
+    "S": "106"
+  }
+},
+{
+  "badge_id": {
+    "S": "12"
+  },
+  "badge_weightage": {
+    "N": "1"
+  },
+  "id": {
+    "S": "16"
+  },
+  "venue_id": {
+    "S": "107"
+  }
+},
+{
+  "badge_id": {
+    "S": "12"
+  },
+  "badge_weightage": {
+    "N": "1"
+  },
+  "id": {
+    "S": "17"
+  },
+  "venue_id": {
+    "S": "108"
+  }
+}
+]
+
+
+
+{
+    badge_id=10, 
+    badge_Name="Meat Head",                        
+    venues_Set= {403, 405, 303, 201},
+    mininum_Score_to_get_badge= 4,                        
+    max_badges_awarded = 6,                        
+    count_of_this_badge_already_awarded = 2
+    activeIntervals: [
+        {startTime, endTime},
+        {startTime, endTime},
+        {startTime, endTime}
+    ]
+}
+
+Tracker Table:
+{
+    user_id,  
+    badge_id, 
+    cumulative_score_for_badge, 
+    last_date_time_of_score_change
+}
+
+mininum_Score_to_get_badge= 4,
+Current_Score
+
+Badge Table:
+{
+    badge_id=10,
+    badge_Name="Meat Head",
+    badge_image="http://fdf",
+    max_badges_awarded = 6,
+    count_of_this_badge_already_awarded = 2,
+    badge_start_date_time= {{9Sept2017 12pm CDT}},
+    badge_end_date_time= {{9Sept2017 5pm CDT}}
+}
+BadgeVenues:
+{
+ badge_id,
+ venue_id
+}
+Trac Table:
+{
+    user_id
+    badge_id,
+    last_date_time_of_at_which_score_exceeded_minimum_requirement
+}

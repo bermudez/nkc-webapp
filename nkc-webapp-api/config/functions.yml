@@ -1,0 +1,224 @@
+functions:
+  #Authentication
+  auth:
+    handler: src/auth0/authHandler.auth
+    
+  ##Private Functions
+  
+  #User
+  user_create:
+    handler: src/users/create.create
+    events:
+      - http:
+          path: users
+          method: post
+          cors: true
+          integration: lambda
+  user_get:
+    handler: src/users/get.get
+    events:
+      - http:
+          path: users/{id}
+          method: get
+          cors: true
+          integration: lambda
+  user_list:
+    handler: src/users/list.list
+    events:
+      - http:
+          path: users
+          method: get
+          cors: true
+          integration: lambda
+          private: true
+          authorizer: 
+            name: auth
+            arn: arn:aws:lambda:us-east-2:450228362552:function:swiftmile-prd-auth
+  user_update:
+    handler: src/users/update.update
+    events:
+      - http:
+          path: users/{id}
+          method: put
+          cors: true
+          integration: lambda
+          private: true
+          authorizer: 
+            name: auth
+            arn: arn:aws:lambda:us-east-2:450228362552:function:swiftmile-prd-auth
+  
+  #User Badges
+  user_badge_list:
+    handler: src/user_badges/list.list
+    events:
+      - http:
+          path: user-badges
+          method: get
+          cors: true
+          integration: lambda
+  #UserCheckIns
+  snap_list:
+    handler: src/snaps/list.list
+    events:
+      - http:
+          path: snaps
+          method: get
+          cors: true
+          integration: lambda
+  snap_create:
+    handler: src/snaps/create.create
+    events:
+      - http:
+          path: snaps
+          method: post
+          cors: true
+          integration: lambda
+  snap_upload:
+    handler: src/snaps/upload.upload
+    events:
+      - http:
+          path: upload_snaps
+          method: post
+          cors: true
+          integration: lambda
+  snap_get:
+    handler: src/snaps/get_sign_s3.get_sign_s3
+    events:
+      - http:
+          path: snaps_s3_signed_url
+          method: get
+          cors: true
+          integration: lambda
+  snap_update:
+    handler: src/snaps/update.update
+    events:
+      - http:
+          path: snaps/{id}
+          method: put
+          cors: true
+          integration: lambda
+          private: true
+          authorizer: 
+            name: auth
+            arn: arn:aws:lambda:us-east-2:450228362552:function:swiftmile-prd-auth
+  snap_delete:
+    handler: src/snaps/delete.delete
+    events:
+      - http:
+          path: snaps/{id}
+          method: delete
+          cors: true
+          integration: lambda
+          private: true
+          authorizer: 
+            name: auth
+            arn: arn:aws:lambda:us-east-2:450228362552:function:swiftmile-prd-auth
+
+  ##Public Functions
+  #Badges
+  badge_list:
+    handler: src/badges/list.list
+    events:
+      - http:
+          path: badges
+          method: get
+          cors: true
+          integration: lambda
+
+  #Venue
+  venue_list:
+    handler: src/venues/list.list
+    events:
+      - http:
+          path: venues
+          method: get
+          cors: true
+          integration: lambda
+
+  #Clients
+  client_create:
+    handler: src/clients/create.create
+    events:
+      - http:
+          path: clients
+          method: post
+          cors: true
+          integration: lambda
+
+  #Clusters
+  cluster_list:
+    handler: src/clusters/list.list
+    events:
+      - http:
+          path: clusters
+          method: get
+          cors: true
+          integration: lambda
+
+  #Schedules
+  schedule_list:
+    handler: src/schedules/list.list
+    events:
+      - http:
+          path: schedules
+          method: get
+          cors: true
+          integration: lambda
+#          private: true
+#          authorizer:
+#            arn: ${file(./config/aws_params.yml):USER_POOL_ARN}
+#            claims:
+#              - email
+#              - nickname
+#              - sub
+
+#        request:
+#          parameters:
+#            paths:
+#              id: true
+#        response:
+#          headers:
+#            Content-Type: "'text/json'"
+#          template: $input.path('$')
+#          statusCodes:
+#              201:
+#                  pattern: '' # Default response method
+#              400:
+#                  pattern: '' # Bad Request
+#              401:
+#                  pattern: '' # Unauthorized
+#              403:
+#                  pattern: '' # Forbidden
+#              404:
+#                  pattern: '' # Not Found
+#              422:
+#                  pattern: '' # Unprocessable Entity
+#              409:
+#                  pattern: '.*"statusCode":409,.*' # JSON response
+#                  template: $input.path("$.errorMessage") # JSON return object
+#                  headers:
+#                    Content-Type: "'application/json+hal'"
+#              500:
+#                  pattern: '' # Internal Server Error
+#              502:
+#                  pattern: '' # Bad Gateway
+#              504:
+#                  pattern: '' # Gateway Timeout
+
+#   authorizerFunc:
+#     handler: src/handler.authorizerFunc
+#  create:
+#    handler: src/todos/create.create
+#    events:
+#      - http:
+#          path: todos
+#          method: post
+#          cors: true
+#          integration: lambda
+#          private: true
+#        authorizer:
+#          name: authorizerFunc
+#          arn: xxx:xxx:Lambda-Name #optional
+#          resultTtlInSeconds: 0
+#          identitySource: method.request.header.Authorization
+#          identityValidationExpression: someRegex

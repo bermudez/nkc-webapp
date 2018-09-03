@@ -1,0 +1,45 @@
+{
+    "Table": {
+        "TableName": "swiftmile-prod-users",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "username",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "email",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "user_cognito_id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "roles",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "created_on",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "last_logged_in_on",
+                "AttributeType": "S"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        }
+    }
+}

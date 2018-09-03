@@ -1,0 +1,37 @@
+{
+    "Table": {
+        "TableName": "swiftmile-prod-badges",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "title",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "image",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "added_on",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "added_by",
+                "AttributeType": "S"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        }
+    }
+}

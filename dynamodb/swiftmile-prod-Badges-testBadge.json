@@ -1,0 +1,19 @@
+{
+    "swiftmile-prod-Badges": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "key": {"N": "1000"},
+                    "badgeName": {"S": "Test Badge"},
+                    "description": {"S":"Test Badge"},
+                    "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-badges/TestBadge.png"},
+                    "max_granted": {"N": "5"},
+                    "eventStart": {"N": "1504752495000"},
+                    "eventEnd": {"N": "1506739695000"},
+                    "number_granted": {"N": "0"}
+                }
+              }
+        }
+
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "swiftmile-prod-Venue": [
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "4001"},
+                "poiCluster": {"N": "400"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.146229"},
+                    "longitude": {"N": "-94.579551"}
+                  }
+                },
+                "title": {"S": "Spices"},
+                "description": {"S": "2417 Burlington St, North Kansas City, MO 64116 "},
+                "notes": {"S": " --- "},
+                "notes2": {"S": "Scavenger Hint: Trying for the Foodie Badge Award? Give us your Best Foodie Photography!"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/spices.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-spices.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "4002"},
+                "poiCluster": {"N": "400"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.143382"},
+                    "longitude": {"N": "-94.568133"}
+                  }
+                },
+                "title": {"S": "Tay's Burgers"},
+                "description": {"S": "1019 Armour Rd, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: Buy one sandwich, get one half off"},
+                "notes2": {"S": "Scavenger Hint: Spell Tays with the Food on your Plate-- Extra Points for Creativity!"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/TaysBurger.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-TaysBurger.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "4003"},
+                "poiCluster": {"N": "400"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.145761"},
+                    "longitude": {"N": "-94.557332"}
+                  }
+                },
+                "title": {"S": "Helen's J.A.D. Bar"},
+                "description": {"S": "2002 Armour Rd, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: $4 Boulevard 12 oz tulip drafts"},
+                "notes2": {"S": "Scavenger Hint: Ask Us About our Famous Crash Wall..."},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Helens.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-Helens.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "4004"},
+                "poiCluster": {"N": "400"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.143713"},
+                    "longitude": {"N": "-94.577542"}
+                  }
+                },
+                "title": {"S": "Gloria Heifner Art Studio"},
+                "description": {"S": "2030 Swift Street, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: Local Art Sale and Gallery"},
+                "notes2": {"S": "Scavenger Hint: Snap Some Locally-Made Art (Thankfully it's a Target-Rich Environment)"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Gloria.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-Gloria.png"}
+            }
+          }
+      }
+
+
+
+
+    ]
+}

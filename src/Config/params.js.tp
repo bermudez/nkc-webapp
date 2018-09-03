@@ -1,0 +1,16 @@
+export default {
+    auth0Config: {
+      domain: "{Auth0 Domain}",
+      clientId: "{Auth0 Client}",
+      callbackUrl: 'http://{Auth0 Callback URL}',
+      connection: "facebook,google,twitter"
+    },
+    googlemaps: {
+        key: "{Google Maps Javascript API Key}"
+    },
+    app: {
+        API_BASE_URL: '{REST API Base URL}',
+        UI_IMAGES_BASE_URL: '{APP Asset Images Base URL}',
+        USER_UPLOAD_IMAGES_BASE_URL: '{User Uploaded Images(Snaps) Folder Base URL}',
+    }
+};

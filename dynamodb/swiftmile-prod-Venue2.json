@@ -1,0 +1,271 @@
+{
+    "swiftmile-prod-Venue": [
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "301"},
+                "poiCluster": {"N": "3"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.14033"},
+                    "longitude": {"N": "-94.57891"}
+                  }
+                },
+                "title": {"S": "Cinder Block Brewery"},
+                "description": {"S":"110 E 18th Ave, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: $2 off Year-Round Beers"},
+                "notes2": {"S": "Scavenger Hint: Slow Down a Bit to Spend Time with this Furry Friend."},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/CinderBlock.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-CinderBlock.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "302"},
+                "poiCluster": {"N": "3"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.14141"},
+                    "longitude": {"N": "-94.57873"}
+                  }
+                },
+                "title": {"S": "Calibration Brewery"},
+                "description": {"S":"119 Armour Rd, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: $2 off Year-Round Beers"},
+                "notes2": {"S": "Scavenger Hint: Show the World the Fruits of Brewmaster Jack's Labor!"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/calibrationdrawing.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-calibrationdrawing.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "303"},
+                "poiCluster": {"N": "3"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.14065"},
+                    "longitude": {"N": "-94.57887"}
+                  }
+                },
+                "title": {"S": "Paul & Jack's Tavern"},
+                "description": {"S":"1808 Clay St, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: $2.50 All Drafts!!  $6.99 Cheeseburger Meal $10.99 Prime Rib Sandwich Meal Deal"},
+                "notes2": {"S": "Scavenger Hint: Cheers Whatever Beers You Fancy Today."},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Paul-and-Jacks.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-Paul-and-Jacks.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "304"},
+                "poiCluster": {"N": "3"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.13942"},
+                    "longitude": {"N": "-94.57921"}
+                  }
+                },
+                "title": {"S": "Restless Spirits Distillery"},
+                "description": {"S":"109 E 18th Ave, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: Cocktail Specials"},
+                "notes2": {"S": "Scavenger Hint: No Bootlegging Runs Being Made in this Old Beauty, But She Cleans Up Nice."},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/restlessSpirits.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-restlessSpirits.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "305"},
+                "poiCluster": {"N": "3"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.14084"},
+                    "longitude": {"N": "-94.5795"}
+                  }
+                },
+                "title": {"S": "Repeal 18th"},
+                "description": {"S":"1825 Buchanan St, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: $30 Prix Fixe Dinner & Cocktail Pairing (3 Rnds)"},
+                "notes2": {"S": "Scavenger Hint: Celebrate the Repeal of the 18th Amendment with a Cheers to the People."},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/Repeal18th.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-Repeal18th.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "306"},
+                "poiCluster": {"N": "3"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.14002"},
+                    "longitude": {"N": "-94.57993"}
+                  }
+                },
+                "title": {"S": "Chicken N Pickle"},
+                "description": {"S":"1761 Burlington St, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: Happy Hour Menu from Noon-5pm"},
+                "notes2": {"S": "Scavenger Hint: You Don't Have to be an Ultimate Warrior to Hang with these Yard Gamers."},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/chickenNpickledrawing.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-chickenNpickledrawing.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "401"},
+                "poiCluster": {"N": "4"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.12607"},
+                    "longitude": {"N": "-94.5778"}
+                  }
+                },
+                "title": {"S": "The Big Rip Brewing Co."},
+                "description": {"S":"216 E 9th Ave, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: $1 Off Year-Round Beers"},
+                "notes2": {"S": "Scavenger Hint: Hop Aboard the Pork Chop Express for Some Big Trouble"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/BigRip.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-BigRip.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "402"},
+                "poiCluster": {"N": "4"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.12608"},
+                    "longitude": {"N": "-94.57753"}
+                  }
+                },
+                "title": {"S": "Hawg Jaw BBQ"},
+                "description": {"S":"900 Swift St, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: $2 off $10+ Food Order + Discounted Boulevard Smokestacks"},
+                "notes2": {"S": "Scavenger Hint: Just Snap a Pic of Your Beauttiful BBQ, Friend!"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/HawgJaw.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-HawgJaw.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "403"},
+                "poiCluster": {"N": "4"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.131"},
+                    "longitude": {"N": "-94.57779"}
+                  }
+                },
+                "title": {"S": "Smokin Guns BBQ"},
+                "description": {"S":"1218 Swift St, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: $25 Prix Fixe Dinner & Beer Pairings (3 Rnds)"},
+                "notes2": {"S": "Scavenger Hint: Grab that Pint Path Competition by the Horns!"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/smokingunsbbq.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-smokingunsbbq.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "404"},
+                "poiCluster": {"N": "4"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.13697"},
+                    "longitude": {"N": "-94.57993"}
+                  }
+                },
+                "title": {"S": "iWerx Co-Working Space"},
+                "description": {"S":"1520 Clay St, North Kansas City, MO 64116 "},
+                "notes": {"S": "Special: Wagyu & Brew Meal Deal"},
+                "notes2": {"S": "Scavenger Hint: Hop Inside the Tin Lizzie for a Classy Photo Op, Pint Path-ers!"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/iWerx.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-iWerx.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "405"},
+                "poiCluster": {"N": "4"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.13623"},
+                    "longitude": {"N": "-94.57261"}
+                  }
+                },
+                "title": {"S": "RoKC Climbing Gym"},
+                "description": {"S":"1501 Howell St, North Kansas City, MO 64116 "},
+                "notes": {"S": "Open House"},
+                "notes2": {"S": "Scavenger Hint: Find the Blue Crane Piece (and Come Back Tomorrow to Sweat Out All This Pint Path.)"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/ROKC.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-ROKC.png"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "venueID": {"S": "406"},
+                "poiCluster": {"N": "4"},
+                "badgeRules": {"BOOL": true},
+                "showInMap": {"S": "Yes"},
+                "showInVenueList": {"S": "Yes"},
+                "latlng":{"M":  {
+                    "latitude": {"N": "39.13198"},
+                    "longitude": {"N": "-94.57761"}
+                  }
+                },
+                "title": {"S": "Furniture Solutions Gallery"},
+                "description": {"S":"1240 Swift St, North Kansas City, MO 64116 "},
+                "notes": {"S": "Open House"},
+                "notes2": {"S": "Scavenger Hint: How Do You Get A Head in Life?"},
+                "image": {"S": "https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-pois/FurnitureSolutions.png"},
+                "markerImage": {"S":"https://s3.us-east-2.amazonaws.com/swiftmile-app-assets/app-images/map-markers/marker-FurnitureSolutions.png"}
+            }
+          }
+      }
+
+
+
+    ]
+}

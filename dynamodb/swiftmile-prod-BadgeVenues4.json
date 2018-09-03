@@ -1,0 +1,69 @@
+{
+    "swiftmile-prod-BadgeVenues": [
+
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "76"},
+                "badgeID": {"N": "14"},
+                "venueID": {"S": "306"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "77"},
+                "badgeID": {"N": "14"},
+                "venueID": {"S": "401"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "78"},
+                "badgeID": {"N": "14"},
+                "venueID": {"S": "402"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "79"},
+                "badgeID": {"N": "14"},
+                "venueID": {"S": "403"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "80"},
+                "badgeID": {"N": "14"},
+                "venueID": {"S": "404"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "81"},
+                "badgeID": {"N": "14"},
+                "venueID": {"S": "405"}
+            }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "id": {"S": "82"},
+                "badgeID": {"N": "14"},
+                "venueID": {"S": "406"}
+            }
+          }
+      }
+
+    ]
+}

@@ -1,0 +1,9 @@
+#AWS Deployment region
+region: <AWS Region>
+#AWS Deployment stage
+stage: <Deployment Stage>
+#AWS Deployment profile
+profile: <Deployment Profile Name>
+AWS_ACCOUNT_ID: <Account Id>
+USER_POOL_ID: <User Pool Id>
+USER_POOL_ARN: <User Pool ARN>
