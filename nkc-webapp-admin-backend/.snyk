@@ -1,0 +1,132 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - serverless-offline > babel-register > babel-core > babel-traverse > debug:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > babel-register > babel-core > babel-template > babel-traverse > debug:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > babel-register > babel-core > debug:
+        patched: '2019-10-03T05:46:46.268Z'
+  'npm:hoek:20180212':
+    - serverless-offline > hapi > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > h2o2 > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > topo > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > h2o2 > joi > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > joi > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > h2o2 > wreck > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > call > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > h2o2 > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > mimos > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > kilt > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > iron > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > heavy > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > catbox-memory > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > catbox > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > accept > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > ammo > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > shot > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > pez > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > h2o2 > wreck > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > cryptiles > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > heavy > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > h2o2 > joi > topo > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > joi > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > iron > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > call > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > joi > topo > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > wreck > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > accept > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > ammo > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > catbox > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > catbox > joi > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > heavy > joi > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > shot > joi > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > iron > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > wreck > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > content > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > joi > topo > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > iron > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > cryptiles > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > iron > cryptiles > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > pez > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > shot > joi > topo > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > catbox > joi > topo > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > pez > nigel > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > heavy > joi > topo > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > pez > nigel > vise > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > subtext > pez > content > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > iron > cryptiles > boom > hoek:
+        patched: '2019-10-03T05:46:46.268Z'
+  'npm:moment:20170905':
+    - jsonwebtoken > joi > moment:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > h2o2 > joi > moment:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > joi > moment:
+        patched: '2019-10-03T05:46:46.268Z'
+    - serverless-offline > hapi > statehood > joi > moment:
+        patched: '2019-10-03T05:46:46.268Z'
