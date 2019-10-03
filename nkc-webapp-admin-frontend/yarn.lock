@@ -222,14 +222,14 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
-auth0-js@^8.8.0:
-  version "8.9.3"
-  resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-8.9.3.tgz#c2aa409e7bbaf6d555ea5b858423cc4ee99d7986"
+auth0-js@^9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-9.3.0.tgz#67083dc48f9027a0024e6d92994f3c83a4778feb"
   dependencies:
     base64-js "^1.2.0"
-    idtoken-verifier "^1.1.0"
+    idtoken-verifier "^1.1.1"
     qs "^6.4.0"
-    superagent "^3.3.1"
+    superagent "^3.8.2"
     url-join "^1.1.0"
     winchan "^0.2.0"
 
@@ -1278,6 +1278,12 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
+combined-stream@^1.0.6:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  dependencies:
+    delayed-stream "~1.0.0"
+
 commander@2.11.x, commander@~2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
@@ -1559,6 +1565,12 @@ debug@2.6.8, debug@^2.1.0, debug@^2.1.1, debug@^2.2.0, debug@^2.4.5, debug@^2.6.
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
     ms "2.0.0"
+
+debug@^3.1.0:
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
+  dependencies:
+    ms "^2.1.1"
 
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
@@ -2269,12 +2281,12 @@ forever-agent@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
 
-form-data@^2.1.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.3.1.tgz#6fb94fbd71885306d73d15cc497fe4cc4ecd44bf"
+form-data@^2.3.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.5.1.tgz#f2cbec57b5e59e23716e128fe44d4e5dd23895f4"
   dependencies:
     asynckit "^0.4.0"
-    combined-stream "^1.0.5"
+    combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
 form-data@~2.1.1:
@@ -2285,9 +2297,9 @@ form-data@~2.1.1:
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
 
-formidable@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/formidable/-/formidable-1.1.1.tgz#96b8886f7c3c3508b932d6bd70c4d3a88f35f1a9"
+formidable@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/formidable/-/formidable-1.2.1.tgz#70fb7ca0290ee6ff961090415f4b3df3d2082659"
 
 forwarded@~0.1.0:
   version "0.1.0"
@@ -2624,14 +2636,15 @@ icss-replace-symbols@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/icss-replace-symbols/-/icss-replace-symbols-1.1.0.tgz#06ea6f83679a7749e386cfe1fe812ae5db223ded"
 
-idtoken-verifier@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/idtoken-verifier/-/idtoken-verifier-1.1.0.tgz#1add30125aa3e5e5859d152b356a908a8e2eb5a0"
+idtoken-verifier@^1.1.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/idtoken-verifier/-/idtoken-verifier-1.4.1.tgz#032d7720fdd091830d22f694eb94b5f6644b0d3b"
   dependencies:
     base64-js "^1.2.0"
     crypto-js "^3.1.9-1"
     jsbn "^0.1.0"
-    superagent "^3.3.1"
+    promise-polyfill "^8.1.3"
+    unfetch "^4.1.0"
     url-join "^1.1.0"
 
 ieee754@^1.1.4:
@@ -3555,9 +3568,13 @@ mime@1.3.4:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.3.4.tgz#115f9e3b6b3daf2959983cb38f149a2d40eb5d53"
 
-mime@^1.3.4, mime@^1.3.6:
+mime@^1.3.4:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.4.0.tgz#69e9e0db51d44f2a3b56e48b7817d7d137f1a343"
+
+mime@^1.4.1:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
 
 minimatch@3.0.3:
   version "3.0.3"
@@ -3596,6 +3613,10 @@ ms@0.7.1:
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+
+ms@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
 
 mute-stream@0.0.5:
   version "0.0.5"
@@ -4284,6 +4305,10 @@ process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
 
+process-nextick-args@~2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
+
 process@^0.11.0:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
@@ -4291,6 +4316,10 @@ process@^0.11.0:
 progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
+
+promise-polyfill@^8.1.3:
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.1.3.tgz#8c99b3cf53f3a91c68226ffde7bde81d7f904116"
 
 promise@7.1.1:
   version "7.1.1"
@@ -4348,9 +4377,9 @@ qs@6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.0.tgz#8d04954d364def3efc55b5a0793e1e2c8b1e6e49"
 
-qs@^6.4.0:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
+qs@^6.4.0, qs@^6.5.1:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.0.tgz#d1297e2a049c53119cb49cca366adbbacc80b409"
 
 qs@~6.4.0:
   version "6.4.0"
@@ -4575,6 +4604,18 @@ readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable
     process-nextick-args "~1.0.6"
     safe-buffer "~5.1.1"
     string_decoder "~1.0.3"
+    util-deprecate "~1.0.1"
+
+readable-stream@^2.3.5:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.3"
+    isarray "~1.0.0"
+    process-nextick-args "~2.0.0"
+    safe-buffer "~5.1.1"
+    string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
 readdirp@^2.0.0:
@@ -5086,6 +5127,12 @@ string_decoder@~1.0.3:
   dependencies:
     safe-buffer "~5.1.0"
 
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+  dependencies:
+    safe-buffer "~5.1.0"
+
 stringstream@~0.0.4:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
@@ -5122,20 +5169,20 @@ style-loader@0.13.1:
   dependencies:
     loader-utils "^0.2.7"
 
-superagent@^3.3.1:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/superagent/-/superagent-3.6.0.tgz#eb679651057c3462199c7b902b696c25350e1b87"
+superagent@^3.8.2:
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/superagent/-/superagent-3.8.3.tgz#460ea0dbdb7d5b11bc4f78deba565f86a178e128"
   dependencies:
     component-emitter "^1.2.0"
     cookiejar "^2.1.0"
-    debug "^2.6.0"
+    debug "^3.1.0"
     extend "^3.0.0"
-    form-data "^2.1.1"
-    formidable "^1.1.1"
+    form-data "^2.3.1"
+    formidable "^1.2.0"
     methods "^1.1.1"
-    mime "^1.3.6"
-    qs "^6.4.0"
-    readable-stream "^2.0.5"
+    mime "^1.4.1"
+    qs "^6.5.1"
+    readable-stream "^2.3.5"
 
 supports-color@^2.0.0:
   version "2.0.0"
@@ -5362,6 +5409,10 @@ uncontrollable@^4.1.0:
   resolved "https://registry.yarnpkg.com/uncontrollable/-/uncontrollable-4.1.0.tgz#e0358291252e1865222d90939b19f2f49f81c1a9"
   dependencies:
     invariant "^2.1.0"
+
+unfetch@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-4.1.0.tgz#6ec2dd0de887e58a4dee83a050ded80ffc4137db"
 
 uniq@^1.0.1:
   version "1.0.1"
