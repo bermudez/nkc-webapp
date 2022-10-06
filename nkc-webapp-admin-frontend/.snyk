@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - auth0-js > superagent > debug:
+        patched: '2022-10-06T18:22:37.540Z'
+    - axios > follow-redirects > debug:
+        patched: '2022-10-06T18:22:37.540Z'
+    - auth0-js > idtoken-verifier > superagent > debug:
+        patched: '2022-10-06T18:22:37.540Z'
+  'npm:extend:20180424':
+    - auth0-js > superagent > extend:
+        patched: '2022-10-06T18:22:37.540Z'
+    - auth0-js > idtoken-verifier > superagent > extend:
+        patched: '2022-10-06T18:22:37.540Z'
