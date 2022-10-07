@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.25.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -130,3 +130,88 @@ patch:
         patched: '2019-10-03T05:46:46.268Z'
     - serverless-offline > hapi > statehood > joi > moment:
         patched: '2019-10-03T05:46:46.268Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2022-10-07T15:19:49.755Z'
+  SNYK-JS-LODASH-567746:
+    - snyk > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > inquirer > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-config > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-dynamodb-local > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - aws-sdk > xmlbuilder > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-dynamodb-local > aws-sdk > xmlbuilder > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-dynamodb-local > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - snyk > snyk-nuget-plugin > xml2js > xmlbuilder > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-types > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-generator > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-template > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+    - serverless-offline > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T15:19:49.755Z'
+  SNYK-JS-TREEKILL-536781:
+    - snyk > snyk-sbt-plugin > tree-kill:
+        patched: '2022-10-07T15:19:49.755Z'
