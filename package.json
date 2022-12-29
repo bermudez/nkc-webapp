@@ -36,6 +36,6 @@
     "bootstrap"
   ],
   "devDependencies": {
-    "react-scripts": "^1.1.5"
+    "react-scripts": "^5.0.1"
   }
 }
