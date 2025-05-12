@@ -14,7 +14,7 @@
     "popper.js": "^1.14.4",
     "query-string": "~5.1.1",
     "react": "^16.4.2",
-    "react-bootstrap": "^0.32.3",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.4.2",
     "react-dropzone": "^5.0.1",
     "react-dropzone-s3-uploader": "^1.1.0",
